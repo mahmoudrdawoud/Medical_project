@@ -1,0 +1,124 @@
+    /* Reset CSS */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        background-color: #f5f5f5;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .section {
+        width: 50%;
+        background-color: #ffffff;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        font-size: 24px;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+
+    form {
+        margin-bottom: 20px;
+    }
+
+    form input[type="text"],
+    form select {
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    button[type="submit"] {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table th,
+    table td {
+        padding: 10px;
+        border: 1px solid #cccccc;
+    }
+
+    table th {
+        background-color: #f7f7f7;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    table td {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: #333333;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* Additional Styles for Medical Clinic */
+
+    header {
+        background-color: #f7f7f7;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    nav ul {
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #333333;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    nav ul li a:hover {
+        background-color: #333333;
+        color: #ffffff;
+    }
+
+    footer {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }
